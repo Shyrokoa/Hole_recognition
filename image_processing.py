@@ -68,3 +68,13 @@ def draw_contour(array, destination):
         cv2.drawContours(destination, [cnt], 0, (255, 0, 0), 2)
         # self.contours.append(cnt)
         # print(cnt)
+
+
+def contrast(array, alpha, beta):
+    # alpha - Contrast control (1.0-3.0)
+    # beta  - Brightness control (0-100)
+    return cv2.convertScaleAbs(array, alpha=alpha, beta=beta)
+
+
+def convert_color(array):
+    return cv2.cvtColor(array, cv2.COLOR_BGR2GRAY)
