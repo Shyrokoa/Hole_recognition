@@ -6,7 +6,10 @@
       <w>matplotlib</w>
       <w>maxf</w>
       <w>minf</w>
+      <w>rvecs</w>
       <w>scipy</w>
+      <w>tvecs</w>
+      <w>undistort</w>
     </words>
   </dictionary>
 </component>
