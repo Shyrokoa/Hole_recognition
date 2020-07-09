@@ -2,6 +2,7 @@
   <dictionary name="shyrokoa">
     <words>
       <w>dtype</w>
+      <w>hough</w>
       <w>matplotlib</w>
       <w>maxf</w>
       <w>minf</w>
